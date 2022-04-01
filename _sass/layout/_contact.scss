@@ -5,7 +5,11 @@ section#contact {
   background-repeat: no-repeat;
   background-position: center;
   .section-heading {
-    color: $white;
+    color: $black;
+  }
+  .contact-heading {
+    margin: 15px 0;
+    text-transform: none;
   }
   .form-group {
     margin-bottom: 25px;

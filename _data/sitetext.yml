@@ -11,68 +11,71 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Welcome to cellqua<br><br><br><br><br>
+    text: ""
 #    button: Tell Me More
-#    buttonlink: "#services"
-
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
-
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+#    buttonlink: "#projects"
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "수산해양 생태계 보호와 건강한 사람 그리고 지구를 위해 수산동물 세포를 연구합니다."
+    body: ""
     section: about
+
+  projects:
+    title: "Projects"
+    text: ""
+    section: projects
+    list:
+      - title: "cell-cultured seafood"
+        desc: "배양육"
+        # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        image: assets/img/fish.png
+      - title: "culture medium"
+        desc: "배양액"
+        # icon: 
+        image: assets/img/flask.png
+      - title: "artificial seed"
+        desc: "시험관 종자"
+        # icon: fab fa-markdown
+        image: assets/img/fish-eggs.png
+
+  portfolio:
+    title: "Story"
+    text: ""
+    section: portfolio
+    closebutton: "Close Project"
+
+  # timeline:
+  #   title: "Timeline"
+  #   text: "Lorem ipsum timeline"
+  #   section: timeline
+  #   # left is the default
+  #   #start_align: "left"
+  #   events:
+  #     - title: "Our Humble Beginnings"
+  #       year: "2009-2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/1.jpg
+  #       alt:
+  #     - title: "An Agency is Born"
+  #       year: "March 2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/2.jpg
+  #       alt:
+  #     - title: "Jekyll Theme is created"
+  #       year: "2019"
+  #       desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+  #       image: assets/img/timeline/3.jpg
+  #       alt: image alt text
+  #     - title: "Title"
+  #       year: "2009-2011"
+  #       desc: "Your description here, **Markdown** is fully supported."
+  #       image: assets/img/timeline/4.jpg
+  #       alt:
+  #       # you can enforce the alignment
+  #       align: right
+  #   end: "Be Part <br> of Our <br> Story!"
 
   # clients:
   #   section: clients
@@ -91,15 +94,21 @@ en: &DEFAULT_EN
   #     - title: "Creative Market"
   #       url: https://github.com/raviriley/agency-jekyll-theme
   #       logo: assets/img/clients/creative-market.jpg
+  contact:
+    title: "Contact Us"
+    office:
+      address: "#1106 11Fr, 34, Hwangsaeul-ro 200beon-gil, Bundang-gu<br>Seongnam-si, Gyeonggi-do, Republic of Korea"
+      hour: "Monday - Friday<br>09:00 AM - 06:00 PM"
+      mail: "contact@cellqua.io"
 
   team:
     title: "OUR AMAZING TEAM"
-    text: "Creative Fun Reward"
+    text: "Creative! Fun! Reward!"
     subtext: ""
     section: team
     people:
       - name: "Sangyoon Lee"
-        role: "Co-Founder | CTO"
+        role: "Co-Founder"
         image: assets/img/team/sangyoon_temp.png
         social:
           - url: https://twitter.com
@@ -109,7 +118,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Sangyup Lee"
-        role: "Co-Founder | CEO"
+        role: "Co-Founder"
         image: assets/img/team/sangyup_temp.png
         social:
           - url: https://twitter.com
@@ -119,20 +128,20 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
-  contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+  # contact:
+  #   title: "Contact Us"
+  #   text: "Lorem ipsum or call 123456789"
+  #   section: contact
+  #   name: "Name*"
+  #   name-validation: "Please enter your name."
+  #   email: "Email*"
+  #   email-validation: "Please enter your email address."
+  #   phone: "Phone Number"
+  #   phone-validation: "Please enter your phone number."
+  #   message: "Message*"
+  #   message-validation: "Please enter a message."
+  #   subject: "Contact Form Submission"
+  #   submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
@@ -158,70 +167,70 @@ en-AU:
 
 # Spanish
 # -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
+# es: &DEFAULT_ES
+#   header:
+#     title: ¡Bienvenido a nuestro Estudio!
+#     text: Es un placer conocerle
+#     button: Ver más
+#     buttonlink: "#servicios"
 
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+#   about:
+#     title: "Sobre nosotros"
+#     text: "nuestra historia"
+#     body: ""
+#     section: nosotros
 
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
+#   projects:
+#     title: "Projects"
+#     text: ""
+#     section: projects
+#     list:
+#       - title: "Comercio Electrónico"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+#       - title: "Diseño Responsivo"
+#         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#         icon: fas fa-laptop
+#       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+#         desc: "Su descripción aquí, soporte completo de **Markdown**"
+#         icon: fab fa-markdown
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+#   portfolio:
+#     title: "Portafolio"
+#     text: "Lorem ipsum dolor sit amet consectetur."
+#     section: portafolio
+#     closebutton: "Cerrar Proyecto"
 
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
+  # timeline:
+  #   title: "Cronología"
+  #   text: "Lorem ipsum timeline"
+  #   section: cronologia
+  #   # left is the default
+  #   #start_align: "left"
+  #   events:
+  #     - title: "Nuestro Humilde Comienzo"
+  #       year: "2009-2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/1.jpg
+  #       alt:
+  #     - title: "Una Agencia nace"
+  #       year: "March 2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/2.jpg
+  #       alt:
+  #     - title: "La plantilla Jekyll es creada"
+  #       year: "2019"
+  #       desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+  #       image: assets/img/timeline/3.jpg
+  #       alt: image alt text
+  #     - title: "Título"
+  #       year: "2009-2011"
+  #       desc: "Su descripción aquí, **Markdown** es soportado completamente."
+  #       image: assets/img/timeline/4.jpg
+  #       alt:
+  #       # you can enforce the alignment
+  #       align: right
+  #   end: "¡Se parte <br> de Nuestra <br> Historia!"
 
   # clients:
   #   section: clientes
@@ -241,62 +250,62 @@ es: &DEFAULT_ES
   #       url: https://github.com/raviriley/agency-jekyll-theme
   #       logo: assets/img/clients/creative-market.jpg
 
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Sangyoon Lee"
-        role: "Co-Founder | CTO"
-        image: assets/img/team/sangyoon_temp.png
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Sangyup Lee"
-        role: "Co-Founder | CEO"
-        image: assets/img/team/sangyup_temp.png
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+#   team:
+#     title: "NUESTRO INCREÍBLE EQUIPO"
+#     text: "Lorem ipsum dolor sit amet consectetur."
+#     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+#     section: equipo
+#     people:
+#       - name: "Sangyoon Lee"
+#         role: "Co-Founder"
+#         image: assets/img/team/sangyoon_temp.png
+#         social:
+#           - url: https://twitter.com
+#             icon: fab fa-twitter
+#           - url: https://facebook.com
+#             icon: fab fa-facebook-f
+#           - url: https://linkedin.com
+#             icon: fab fa-linkedin-in
+#       - name: "Sangyup Lee"
+#         role: "Co-Founder"
+#         image: assets/img/team/sangyup_temp.png
+#         social:
+#           - url: https://twitter.com
+#             icon: fab fa-twitter
+#           - url: https://facebook.com
+#             icon: fab fa-facebook-f
+#           - url: https://linkedin.com
+#             icon: fab fa-linkedin-in
 
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
+#   contact:
+#     title: "Contáctenos"
+#     text: "Lorem ipsum or call 123456789"
+#     section: contacto
+#     name: "Nombre*"
+#     name-validation: "Por favor ingrese su nombre."
+#     email: "Correo Electrónico*"
+#     email-validation: "Por favor ingrese su correo electrónico."
+#     phone: "Número Telefónico*"
+#     phone-validation: "Por favor ingrese su número telefónico."
+#     message: "Mensaje*"
+#     message-validation: "Por favor escriba un mensaje."
+#     subject: "Envío del formulario de contacto"
+#     submit: "Enviar Mensaje"
 
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+#   footer:
+#     legal: "Política de Privacidad"
+#     social:
+#       - url: https://twitter.com
+#         icon: "fab fa-twitter"
+#       - url: https://facebook.com
+#         icon: "fab fa-facebook-f"
+#       - url: https://linkedin.com
+#         icon: "fab fa-linkedin-in"
+#       - url: https://github.com/raviriley/agency-jekyll-theme
+#         icon: "fab fa-github"
+#       - url: https://instagram.com
+#         icon: "fab fa-instagram"
+# es-ES:
+#   <<: *DEFAULT_ES
+# es-CO:
+#   <<: *DEFAULT_ES

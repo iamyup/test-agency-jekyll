@@ -11,18 +11,18 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
+    - title: "About US"
       section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
-      section: team
-    - title: "Contact"
-      section: contact
+    - title: "Projects"
+      section: projects
+    - title: "Story"
+      section: portfolio
+#    - title: "Team"
+#      section: team
+#    - title: "Timeline"
+#      section: timeline
+#    - title: "Contact"
+#      section: contact
 # to remove navigation menu
 #    - title: "Theme Source"
 #      url: https://github.com/raviriley/agency-jekyll-theme/
@@ -39,18 +39,18 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
     - title: "Sobre Nosotros"
       section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
+    - title: "Projects"
+      section: projects
+    - title: "Portafolio"
+      section: portafolio
+#    - title: "Equipo"
+#      section: equipo
+#    - title: "Cronología"
+#      section: cronologia
+#    - title: "Contáctenos"
+#      section: contacto
 #    - title: "Fuente de la plantilla"
 #      url: https://github.com/raviriley/agency-jekyll-theme/
 es-ES:
