@@ -37,9 +37,16 @@ h6 {
     margin-bottom: 15px;
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 400;
     font-style: italic;
+    margin-bottom: 15px;
+    text-transform: none;
+    @include serif-font;
+  }
+  h4.section-subheading {
+    font-size: 20px;
+    font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
     @include serif-font;

@@ -20,6 +20,7 @@
           <!--</span>-->
           <img class="mx-auto w-50" src="{{ service.image }}" alt="">
           <div><h4 class="project-heading">{{ service.title | markdownify }}</h4></div>
+          <div class="text-muted">{{ service.title_kr | markdownify }}</div>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}

@@ -11,15 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to cellqua<br><br><br><br><br>
+    title: Would you like to help improve the environment with cellqua?<br><br><br><br><br><br>
     text: ""
 #    button: Tell Me More
 #    buttonlink: "#projects"
 
   about:
     title: "About Us"
-    text: "수산해양 생태계 보호와 건강한 사람 그리고 지구를 위해 수산동물 세포를 연구합니다."
-    body: ""
+    text: "We, cellqua, are a research company based on cells of aquatic animals."
+    body: "*cellqua* intends to play a role in supplying products for the development of industry and academia in the fishery field. *cellqua* strives to produce **eco-friendly, sustainable, safe and healthy products.**"
     section: about
 
   projects:
@@ -27,16 +27,19 @@ en: &DEFAULT_EN
     text: ""
     section: projects
     list:
-      - title: "cell-cultured seafood"
-        desc: "배양육"
+      - title: "cellbased seafood"
+        title_kr: "배양육"
+        desc: "Cellqua is striving to develop cell-based seafood in aquatic animals of various species. Aquatic animals for cell-based seafood production include fish, crustaceans, cephalopods, and shellfish."
         # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-        image: assets/img/fish.png
-      - title: "culture medium"
-        desc: "배양액"
+        image: assets/img/seafood.png
+      - title: "cellbank & materials"
+        title_kr: "세포은행"
+        desc: "Cellqua provides a banking service that collects and distributes aquatic animal cells. And We are developing FBS substitutes for aquatic animal cell culture."
         # icon: 
-        image: assets/img/flask.png
+        image: assets/img/cellbank.png
       - title: "artificial seed"
-        desc: "시험관 종자"
+        title_kr: "빅데이터"
+        desc: "cellqua builds and analyzes data derived from cell resesarch and development. Based on the big-data, we support safe R&D by managing predictable risks."
         # icon: fab fa-markdown
         image: assets/img/fish-eggs.png
 
