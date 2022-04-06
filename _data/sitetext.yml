@@ -27,21 +27,21 @@ en: &DEFAULT_EN
     text: ""
     section: projects
     list:
-      - title: "cellbased seafood"
+      - title: "cell-based seafood"
         title_kr: "배양육"
         desc: "Cellqua is striving to develop cell-based seafood in aquatic animals of various species. Aquatic animals for cell-based seafood production include fish, crustaceans, cephalopods, and shellfish."
         # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-        image: assets/img/seafood.png
+        image: assets/img/seafood2.png
       - title: "cellbank & materials"
         title_kr: "세포은행"
         desc: "Cellqua provides a banking service that collects and distributes aquatic animal cells. And We are developing FBS substitutes for aquatic animal cell culture."
         # icon: 
         image: assets/img/cellbank.png
-      - title: "artificial seed"
+      - title: "big data"
         title_kr: "빅데이터"
-        desc: "cellqua builds and analyzes data derived from cell resesarch and development. Based on the big-data, we support safe R&D by managing predictable risks."
+        desc: "Cellqua builds and analyzes data derived from cell resesarch and development. Based on the big-data, we support effective R&D by managing predictable risks."
         # icon: fab fa-markdown
-        image: assets/img/fish-eggs.png
+        image: assets/img/data3.png
 
   portfolio:
     title: "Story"
@@ -112,7 +112,7 @@ en: &DEFAULT_EN
     people:
       - name: "Sangyoon Lee"
         role: "Co-Founder"
-        image: assets/img/team/sangyoon_temp.png
+        image: assets/img/team/sangyoon.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
