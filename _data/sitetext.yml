@@ -11,15 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Would you like to help improve the environment with cellqua?<br><br><br><br><br><br>
+    title: Help protect our environment with Cellqua!<br><br><br><br><br><br><br>
     text: ""
 #    button: Tell Me More
 #    buttonlink: "#projects"
 
   about:
     title: "About Us"
-    text: "We, cellqua, are a research company based on cells of aquatic animals."
-    body: "*cellqua* intends to play a role in supplying products for the development of industry and academia in the fishery field. *cellqua* strives to produce **eco-friendly, sustainable, safe and healthy products.**"
+    text: "We specialise in cell-based research for aquatic animals."
+    body: "Our mission is to play a key role in the development and the academic research of the sustainable seafood industry. We strive to provide eco-friendly, sustainable, safe and healthy products for everyone to enjoy."
     section: about
 
   projects:
@@ -27,19 +27,19 @@ en: &DEFAULT_EN
     text: ""
     section: projects
     list:
-      - title: "cell-based seafood"
+      - title: "Cell-based Seafood"
         title_kr: "배양육"
-        desc: "Cellqua is striving to develop cell-based seafood in aquatic animals of various species. Aquatic animals for cell-based seafood production include fish, crustaceans, cephalopods, and shellfish."
+        desc: "Developing cell-based seafood of various aquatic animals species such as fish, crustaceans, cephalopods, and shellfish."
         # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
         image: assets/img/seafood2.png
-      - title: "cellbank & materials"
+      - title: "Cell-bank & Materials"
         title_kr: "세포은행"
-        desc: "Cellqua provides a banking service that collects and distributes aquatic animal cells. And We are developing FBS substitutes for aquatic animal cell culture."
+        desc: "A banking system for collecting and distributing aquatic animal cells and developing FBS substitutes for aquatic animal cell culture."
         # icon: 
         image: assets/img/cellbank.png
-      - title: "big data"
+      - title: "Big Data"
         title_kr: "빅데이터"
-        desc: "Cellqua builds and analyzes data derived from cell resesarch and development. Based on the big-data, we support effective R&D by managing predictable risks."
+        desc: "Collecting and analysing data from cell resesarch and development, supporting an effective R&D by managing predictionable risks."
         # icon: fab fa-markdown
         image: assets/img/data3.png
 
