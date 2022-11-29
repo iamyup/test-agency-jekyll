@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Help protect our environment with Cellqua!<br><br><br><br><br><br><br>
-    text: ""
+    title: cellqua
+    text: "Cultivated Seafood"
 #    button: Tell Me More
 #    buttonlink: "#projects"
 
@@ -21,6 +21,13 @@ en: &DEFAULT_EN
     text: "We commit to advancing sustainable fishing industry."
     body: "asdfasdfasdf"
     section: mission
+    goal:
+      - image: assets/img/mission/earth.png
+        name: "For Earth"
+      - image: assets/img/mission/health.png
+        name: "For Health"
+      - image: assets/img/mission/animal.png
+        name: "For Animal"
 
   about:
     title: "Team"
@@ -32,22 +39,16 @@ en: &DEFAULT_EN
     title: ""
     text: ""
     section: projects
-    list:
-      - title: "Cell-based Seafood"
-        title_kr: "배양육"
-        desc: "Developing cell-based seafood of various aquatic animals species such as fish, crustaceans, cephalopods, and shellfish."
-        # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-        image: assets/img/seafood2.png
-      - title: "Cell-bank & Materials"
-        title_kr: "세포은행"
-        desc: "A banking system for collecting and distributing aquatic animal cells and developing FBS substitutes for aquatic animal cell culture."
-        # icon: 
-        image: assets/img/cellbank.png
-      - title: "Big Data"
-        title_kr: "빅데이터"
-        desc: "Collecting and analysing data from cell resesarch and development, supporting an effective R&D by managing predictionable risks."
-        # icon: fab fa-markdown
-        image: assets/img/data3.png
+    title_1: "Cultivated Seafood"
+    desc_1: "Developing cell-based seafood of various aquatic animals species such as fish, crustaceans, cephalopods, and shellfish."
+    # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+    image_1: assets/img/seafood2.png
+    title_2: "Cell-bank & Materials"
+    desc_2: "A banking system for collecting and distributing aquatic animal cells and developing FBS substitutes for aquatic animal cell culture."
+    image_2: assets/img/cellbank.png
+    title_3: "Big Data"
+    desc_3: "Collecting and analysing data from cell resesarch and development, supporting an effective R&D by managing predictionable risks."
+    image_3: assets/img/data3.png
 
   portfolio:
     title: "Story"
@@ -56,31 +57,36 @@ en: &DEFAULT_EN
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Our Story"
+    text: "Past, present, and future is where we're at."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+        year: "Aug 2021"
+        desc: "Founded cellqua, Inc<br>The lab is opening!"
+        image: assets/img/timeline/begin.jpeg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Early-Stage Startup Package Selected"
+        year: "May 2022"
+        desc: "Fetal Bovine Serum Replacement Additive for Fish Cell Culture"
+        image: assets/img/timeline/early_package.png
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Accelerating Program"
+        year: "May 2022"
+        desc: "Selected as the Oeans and Fisheries Accelerating program by KIMST and MYSC"
+        image: assets/img/timeline/mysc.png
+        alt:
+      - title: "Accelerating Program"
+        year: "July 2022"
+        desc: "Selected as the Impact Climate program by Sopoong Ventures"
+        image: assets/img/timeline/sopoong.png
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Angel"
+        year: "Aug 2022"
+        desc: "Sopoong Ventures Funding"
+        image: assets/img/timeline/sopoong2.png
         alt:
         # you can enforce the alignment
         align: right
