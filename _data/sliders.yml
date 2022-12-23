@@ -1,0 +1,14 @@
+# example slider
+- selector: slider
+  bullets: true
+  captions: true
+  images:
+    - src: assets/img/bg1.png
+      alt: image one
+    - src: assets/img/bg2.png
+      alt: image two
+    - src: assets/img/bg1.png
+      alt: image three
+  settings:
+    height: 600
+    effect:
