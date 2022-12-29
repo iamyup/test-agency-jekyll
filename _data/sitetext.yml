@@ -22,9 +22,9 @@ en: &DEFAULT_EN
     body: "asdfasdfasdf"
     section: mission
     goal:
-      - image: assets/img/mission/earth.png
+      - image: assets/img/mission/earth.jpg
         name: "For Earth"
-      - image: assets/img/mission/health.png
+      - image: assets/img/mission/health.jpg
         name: "For Health"
       - image: assets/img/mission/animal.png
         name: "For Animal"
@@ -36,7 +36,7 @@ en: &DEFAULT_EN
     section: about
 
   projects:
-    title: ""
+    title: "Project"
     text: ""
     section: projects
     title_1: "Cultivated Seafood"
