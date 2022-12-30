@@ -1,12 +1,13 @@
-// Styling for the team section
-section#about {
+// Styling for the projects section
+section#mission {
+  background-color: #0d1126;
   .section-heading {
     color: aliceblue;
   }
   .section-subheading {
     color: aliceblue;
   }
-  .team-member {
+  .mission-item {
     margin-bottom: 50px;
     text-align: center;
     color: aliceblue;
@@ -23,5 +24,5 @@ section#about {
     p {
       margin-top: 0;
     }
-  }  
+  }
 }
